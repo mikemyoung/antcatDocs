@@ -1,0 +1,32 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: antarcticMetadataCatalogue
+chapters:
+- file: gettingStarted
+  title: Getting Started
+- file: account
+  title: Account
+- file: metadata
+  sections:
+  - file: metadataChecklist
+    title: 10 Point Checklist
+- file: fairData
+- file: api
+  sections:
+  - file: sitemap
+  - file: schemaorg
+  - file: csw
+  - file: qsearch
+- file: integrations
+- file: tutorial
+  sections:
+  - file: metadataTutorial
+    sections:
+    - file: createMetadata
+    - file: editMetadata
+    - file: publishMetadata
+  - file: linkData
+    title: Link Data
+- file: tools
